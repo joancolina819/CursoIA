@@ -6,6 +6,7 @@ public class Suelo {
 	public static final String ALCALINO = "alcalino";
 	public static final String LIGERAMENTE_ALCALINO = "alcalino";
 	public static final double ALTA = 1000;
+	public static final double BAJA = 1000;
 	private double ph;
 	private double conductividadElectrica;
 	private double arcilla;

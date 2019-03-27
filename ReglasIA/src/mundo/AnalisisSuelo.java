@@ -26,9 +26,9 @@ public class AnalisisSuelo {
 	        System.out.println("==> ph: NEUTRO");
 		}
 	}
+	//omenario
 	
-	
-	public void rule25() {
+	public void rule29() {
 		
 		if(suelo.getArcilla()>40.0) {
 		System.out.println("     |-(1) Baja mineralizacion de MO (Baja actvidad microbiologica)	");

@@ -1,3 +1,4 @@
+
 package mundo;
 
 public class AnalisisSuelo {
@@ -92,7 +93,16 @@ public class AnalisisSuelo {
 
 		}
 	}
-	
-	
+
+	public void rule29() {
+		
+		if(suelo.getArcilla()>40.0) {
+		System.out.println("     |-(1) Baja mineralizacion de MO (Baja actvidad microbiologica)	");
+        System.out.println("     |-(2) Baja difusion de Oxigeno y flujo de gases");    
+        System.out.println("     |-(3) Salinidad en el suelo");
+		}
+	}
 	
 }
+	
+	
